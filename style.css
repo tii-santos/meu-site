@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista {
+    list-style: none; /* tira as bolinhas preta da frente da lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1; /* Permite que a lista ocupe o espaço restante */
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.lista li {
+    margin-left: 20px;
+}
+
+.lista a {
+    text-decoration: none; /* tira o risco azul de baixo do nome */
+    color: #000; /* muda a cor da letra */
+    padding: 15px 20px; /* o primeiro serve para parte de cima e parte de baixo, ja o segundo serve para esquerda e direita*/
+    display: block;
+}
+
+.lista a:hover {
+    background-color: #7c7c7c;
+    border-radius: 5px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 30px; /* tamanho da logotipo */
+    margin-left: 10px; /* Espaço entre os ícones e o menu */
+}
+
+
+
+
+
+
